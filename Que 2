@@ -1,7 +1,8 @@
-s= input("Enter the string : ")
-result=[]
-for i in range(len(s)):
-    if i % 2 == 0:
-        result.append(s[i])
-
-print("".join(result))
+s=input("Enter the string..")
+i=0
+string=""
+while i<len(s):
+if i%2==0:
+  string=string+s[i]
+ i=i+1
+print("New string:",string)
