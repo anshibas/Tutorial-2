@@ -1,5 +1,8 @@
-s = input("Enter a string: ")
-v = "aeiouAEIOU"
-n_str = "".join([ch for ch in s if ch not in v])
-print("String after removing vowels:", n_str)
+vowels= "AEIOUaeiou"
+s=input("Enter the string..")
+string=""
+for char in s:
+ if char not in vowels:
+   string=string+char
+print("new string after removing vowels=", string)
     
